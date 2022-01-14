@@ -13,8 +13,12 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-    <h1>{{title }}</h1>
+
+    {% include 'header.njk' %}
+    
+    <main>
     {{ content | safe }}        
+    </main>
         <script src="" async defer></script>
     </body>
 </html>

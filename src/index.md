@@ -1,11 +1,11 @@
 ---
 layout: base
-title: Jorgeneidem eleventy site
+title: This title is in the front matter of index.md
 ---
 
-## Hello world
+## This is content
 
-### why is not entire src a watch target
+### anything below front matter is placed in the content safe area
 
 {%- for post in collections.posts %}
 

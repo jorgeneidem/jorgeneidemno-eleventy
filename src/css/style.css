@@ -1,6 +1,34 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-  color: brown;
+  color: #eef1f6;
   font-size: 16px;
+  background-color: #0f1624;
+}
+
+main {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+a.je-logo-link,
+a.je-logo-link:visited {
+  color: #242f47;
+}
+
+a.je-logo-link:hover {
+  color: #2e3a53;
+}
+
+a.je-logo-link:active {
+  color: #171e2f;
+}
+
+.je-header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1040px;
+  margin: 0 auto;
 }
