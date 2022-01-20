@@ -1,5 +1,4 @@
 ---
-layout: layouts/base
 title: Second post
 tags: posts
 ---
