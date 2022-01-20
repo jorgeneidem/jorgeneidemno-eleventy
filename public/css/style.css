@@ -4,6 +4,7 @@ body {
   color: #eef1f6;
   font-size: 16px;
   background-color: #0f1624;
+  padding: 16px;
 }
 
 main {
@@ -14,6 +15,7 @@ main {
 a.je-logo-link,
 a.je-logo-link:visited {
   color: #242f47;
+  transition: all 0.25s ease 0s;
 }
 
 a.je-logo-link:hover {
@@ -31,4 +33,140 @@ a.je-logo-link:active {
   align-items: center;
   max-width: 1040px;
   margin: 0 auto;
+  padding: 0 0 8px 0;
+}
+
+.je-sociallinks-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 180px;
+  justify-content: space-between;
+}
+
+.je-sociallinks-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  min-height: 48px;
+  transition: all 0.35s ease 0s;
+  background-color: none;
+}
+
+.je-sociallinks-container a svg {
+  transition: all 0.35s ease 0s;
+  fill: #303c57;
+  transform: scale(1.25);
+}
+
+.je-sociallinks-container a:hover {
+  background-color: rgb(33, 45, 69);
+  cursor: pointer;
+  transform: scale(1.25);
+}
+
+.je-sociallinks-container a.round:hover {
+  border-radius: 100px;
+}
+
+.je-sociallinks-container a.square:hover {
+  border-radius: 4px;
+}
+
+.je-sociallinks-container a.squircle:hover {
+  border-radius: 18px;
+}
+
+.je-sociallinks-container a:hover svg {
+  fill: #a6b3d3;
+}
+
+.je-hero-wrapper {
+  display: grid;
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+  .je-hero-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.je-hero-textpane,
+.je-hero-imagepane {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.je-hero-textpane h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.je-hero-textpane h4 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #444f64;
+}
+
+@media screen and (min-width: 960px) {
+  .je-hero-textpane h1 {
+    font-size: 48px;
+  }
+
+  .je-hero-textpane h4 {
+    font-size: 32px;
+  }
+}
+
+.je-hero-textpane h1,
+.je-hero-textpane h4 {
+  margin: 0;
+}
+
+.je-hero-textpane {
+  padding: 32px 0;
+  justify-content: center;
+}
+
+.je-hero-imagepane {
+  min-height: 164px;
+}
+
+.je-imposter-relative-container {
+  position: relative;
+}
+
+.je-imposter-absolute-container {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-start: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px #242f47 solid;
+  border-radius: 21px;
+  opacity: 0.9;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  max-width: 264px;
+}
+
+@media screen and (min-width: 1200px) {
+  .je-imposter-absolute-container {
+    width: 45%;
+  }
+}
+
+.je-imposter-absolute-container img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.je-imposter-relative-container svg {
+  width: 100%;
 }

@@ -1,6 +1,6 @@
 {
   "name": "Jørgen Eidem's personal website",
-  "url": "https://jorgeneidem.no",
+  "url": "http://localhost:8080/",
   "authorName": "Jørgen Eidem",
   "description": "Jørgen Eidem is a digital designer and independent consultant.",
   "favicon": "/images/favicon.svg",

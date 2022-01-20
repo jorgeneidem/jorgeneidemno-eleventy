@@ -1,6 +1,6 @@
 ---
-layout: base
-title: This title is in the front matter of index.md
+layout: layouts/base
+title: This title is in the front matter of index.md yes
 ---
 
 ## This is content
