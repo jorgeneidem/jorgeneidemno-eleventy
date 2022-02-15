@@ -119,7 +119,7 @@ a.je-logo-link:active {
   margin: 0 auto;
   font-size: 14px;
   display: grid;
-  color: #303c57;
+  color: #7a808f;
   gap: 8px;
   grid-template-columns: repeat(auto-fill, minmax(167px, 1fr));
 }
@@ -127,7 +127,7 @@ a.je-logo-link:active {
 .je-footer-wrapper a,
 .je-footer-wrapper a:visited,
 .je-footer-wrapper a:active {
-  color: #303c57;
+  color: #7a808f;
   text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ a.je-logo-link:active {
 }
 
 .je-footer-wrapper svg {
-  color: #303c57;
+  color: #6a768c;
   transform: scale(0.66);
 }
 
