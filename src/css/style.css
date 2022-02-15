@@ -26,31 +26,39 @@ summary {
   color: rgb(191, 192, 203);
 }
 
-.experience h3,
+.experience h4,
 .experience p {
   margin: 0;
   padding: 0;
   max-width: 33ch;
 }
 
+.experience h4 {
+  font-size: 19px;
+  color: #6a768c;
+}
+
 .grid div > * {
   max-width: 48ch;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 @media screen and (max-width: 640px) {
-  h2 {
+  .kolonne-om-meg h3:first-child {
     display: none;
   }
 
-  h2,
-  h3 {
+  h4 {
     font-size: 22px;
   }
 }
 
-.experience h2,
 .experience h3 {
   color: #6a768c;
+  font-size: 24px;
 }
 
 .experience ul {
@@ -209,7 +217,7 @@ a.je-logo-link:active {
   font-weight: 700;
 }
 
-.je-hero-textpane h4 {
+.je-hero-textpane h2 {
   font-size: 20px;
   font-weight: 400;
   color: #7b879b;
@@ -220,7 +228,7 @@ a.je-logo-link:active {
     font-size: 32px;
   }
 
-  .je-hero-textpane h4 {
+  .je-hero-textpane h2 {
     font-size: 24px;
   }
 }
@@ -230,13 +238,13 @@ a.je-logo-link:active {
     font-size: 48px;
   }
 
-  .je-hero-textpane h4 {
+  .je-hero-textpane h2 {
     font-size: 32px;
   }
 }
 
 .je-hero-textpane h1,
-.je-hero-textpane h4 {
+.je-hero-textpane h2 {
   margin: 0;
 }
 
