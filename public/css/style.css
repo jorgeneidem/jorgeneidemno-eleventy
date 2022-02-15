@@ -4,9 +4,13 @@ body {
   color: #c4cbda;
   font-size: 16px;
   background-color: #0f1624;
-  /* background-color: #0f1624; */
   padding: 16px;
   line-height: 1.5;
+}
+
+a {
+  text-decoration: underline;
+  color: #9aabd0;
 }
 
 main {
@@ -26,6 +30,10 @@ summary {
 .experience p {
   margin: 0;
   padding: 0;
+}
+
+.grid div > * {
+  max-width: 48ch;
 }
 
 @media screen and (max-width: 640px) {
@@ -71,8 +79,8 @@ summary {
 
 @media screen and (min-width: 800px) {
   .desktop-to-kolonner {
-    gap: calc(5vw + 16px);
-    grid-template-columns: 8fr 12fr;
+    gap: 40px;
+    grid-template-columns: 14fr 11fr;
   }
 }
 
