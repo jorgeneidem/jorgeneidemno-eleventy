@@ -4,9 +4,28 @@ title: Title of index.njk
 ---
 {% include 'components/hero.liquid' %}
 
-<h2>Posts</h2>
+
+<div class="grid desktop-to-kolonner">
+
+<div>
+<h2>Om meg</h2>
+<summary>Jeg driver selskapet Digtra hvor jeg til daglig jobber som selvstendig konsulent innenfor UX/UI-design.</summary>
+<p>Digtra medeier i teknologiselskapet Folq, som med sin konsulentplattform ble kåret til Norges raskest voksende teknologiselskap i 2021 av Deloitte.</p>
+<p>Som selvstendig konsulent er jeg også medlem i nettverket Brainbase, som omfatter mer enn 700 erfarne konsulenter i teknologibransjen.</p>
+<p>Hovedsakelig jobber jeg full tid med én kunde av gangen, i langsiktige kontrakter. Settingen er som oftest et autonomt team sammen med utviklere, testere, produkteiere, domeneeksperter som jobber med en variant av smidig-metodikk. </p>
+<p>Rollen som UX-designer er som oftest plassert i IT-avdelingen, samtidig som like mye av samhandlingen i hverdagen foregår på tvers av organisasjonen, for eksempel med personer i produktavdelingen, markedsavdelingen, fagavdelinger, eller hos kundens samarbeidspartnere og/eller oppdragsgivere.</p>
+
+</div>
+
+<div class="experience">
+<h2>Erfaring</h2>
 <ul>
-{% for post in collections.posts %} 
-    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{% for experience in collections.experience | reverse %} 
+    <li>
+        <h3>{{ experience.data.year }}</h3>
+        <p>{{ experience.data.summary_no }}</p>
+    </li>
 {% endfor %}
 </ul>
+</div>
+</div>
