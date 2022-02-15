@@ -50,7 +50,6 @@ a.je-logo-link:active {
   min-width: 48px;
   min-height: 48px;
   transition: all 0.35s ease 0s;
-  background-color: none;
 }
 
 .je-sociallinks-container a svg {
@@ -65,16 +64,19 @@ a.je-logo-link:active {
   transform: scale(1.25);
 }
 
+.je-sociallinks-container a.round,
 .je-sociallinks-container a.round:hover {
   border-radius: 100px;
 }
 
+.je-sociallinks-container a.square,
 .je-sociallinks-container a.square:hover {
   border-radius: 4px;
 }
 
+.je-sociallinks-container a.squircle,
 .je-sociallinks-container a.squircle:hover {
-  border-radius: 18px;
+  border-radius: 16px;
 }
 
 .je-sociallinks-container a:hover svg {
